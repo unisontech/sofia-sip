@@ -60,12 +60,7 @@ if (UNIX)
     configure_file(configure_command.sh.in configure_command.sh)
 
     set(CONFIGURE_COMMAND bash ${CMAKE_CURRENT_BINARY_DIR}/configure_command.sh)
-    set(BUILD_COMMAND make clean && make -j4 && make install)
-
-    message(STATUS "SOURCE_DIR = ${SOURCE_DIR}")
-    message(STATUS "BINARY_DIR = ${BINARY_DIR}")
-    message(STATUS "CONFIGURE_COMMAND = ${CONFIGURE_COMMAND}")
-    message(STATUS "BUILD_COMMAND = ${BUILD_COMMAND}")
+    set(BUILD_COMMAND make clean && make)
 
     ExternalProject_Add(sofia-sip-ua
         SOURCE_DIR ${SOURCE_DIR}

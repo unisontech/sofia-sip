@@ -13,7 +13,7 @@ CFLAGS="${SOFIA_SIP_CFLAGS} ${SOFIA_SIP_ANDROID_INCLUDES}" \
 LDFLAGS="${CMAKE_MODULE_LINKER_FLAGS} ${SOFIA_SIP_ANDROID_LIB_DIRS}" \
 ${CMAKE_CURRENT_SOURCE_DIR}/configure \
     --host=${SOFIA_SIP_TARGET_PLATFORM} \
-    --prefix=${CMAKE_CURRENT_BINARY_DIR}/out \
+    --prefix=${CMAKE_INSTALL_PREFIX} \
     --without-glib \
     --enable-static \
     --disable-shared \
