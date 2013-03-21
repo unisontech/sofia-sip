@@ -28,7 +28,7 @@
 @setlocal
 @if x%AWK%==x set AWK=mawk
 @set VERSION=%AWK% -v BINMODE="rw" -f version.awk
-@set AC=..\configure.ac
+@set AC=../configure.ac
 
 :: Check that we really have awk
 @%AWK% "{ exit(0); }" < NUL >NUL
@@ -38,7 +38,7 @@
 @goto end
 :have_awk
 
-for %%f in (config.h ..\libsofia-sip-ua\features\sofia-sip\sofia_features.h) ^
+for %%f in (config.h ../libsofia-sip-ua/features/sofia-sip/sofia_features.h) ^
 do %VERSION% %AC% OUT=1 %%f.in > %%f
 @if errorlevel 1 goto echo *** version_files failed ***
 
