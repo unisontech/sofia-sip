@@ -17,9 +17,11 @@ if "%1%" == "release" (
 cd ..\..\libsofia-sip-ua
 FOR /F %f IN ('dir *.h /b/s') DO xcopy /E /Y /I %f %INSTALL_DIR%\include\sofia-sip\
 
+cd ..\..
 echo Sofia-SIP build OK
 exit /B 0
 
 :error
+cd ..\..
 echo Sofia-SIP build FAILED
 exit /B 1
