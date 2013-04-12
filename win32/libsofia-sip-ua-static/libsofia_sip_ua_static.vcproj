@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="Windows-1252"?>
 <VisualStudioProject
 	ProjectType="Visual C++"
-	Version="8.00"
+	Version="9.00"
 	Name="libsofia_sip_ua_static"
 	ProjectGUID="{5A6E80AB-5335-4F14-9030-D4DA3A13109B}"
 	RootNamespace="libsofia_sip_ua_static"
+	TargetFrameworkVersion="131072"
 	>
 	<Platforms>
 		<Platform
@@ -463,11 +464,11 @@
 					>
 				</File>
 				<File
-					RelativePath="..\..\libsofia-sip-ua\su\su_string.c"
+					RelativePath="..\..\libsofia-sip-ua\su\strtoull.c"
 					>
 				</File>
 				<File
-					RelativePath="..\..\libsofia-sip-ua\su\strtoull.c"
+					RelativePath="..\..\libsofia-sip-ua\su\su_string.c"
 					>
 				</File>
 			</Filter>
@@ -759,6 +760,14 @@
 					>
 				</File>
 				<File
+					RelativePath="..\..\libsofia-sip-ua\nua\nua_client.c"
+					>
+				</File>
+				<File
+					RelativePath="..\..\libsofia-sip-ua\nua\nua_client.h"
+					>
+				</File>
+				<File
 					RelativePath="..\..\libsofia-sip-ua\nua\nua_common.c"
 					>
 				</File>
@@ -811,6 +820,14 @@
 					>
 				</File>
 				<File
+					RelativePath="..\..\libsofia-sip-ua\nua\nua_server.c"
+					>
+				</File>
+				<File
+					RelativePath="..\..\libsofia-sip-ua\nua\nua_server.h"
+					>
+				</File>
+				<File
 					RelativePath="..\..\libsofia-sip-ua\nua\nua_session.c"
 					>
 				</File>
@@ -820,22 +837,6 @@
 				</File>
 				<File
 					RelativePath="..\..\libsofia-sip-ua\nua\nua_stack.h"
-					>
-				</File>
-				<File
-					RelativePath="..\..\libsofia-sip-ua\nua\nua_client.c"
-					>
-				</File>
-				<File
-					RelativePath="..\..\libsofia-sip-ua\nua\nua_client.h"
-					>
-				</File>
-				<File
-					RelativePath="..\..\libsofia-sip-ua\nua\nua_server.c"
-					>
-				</File>
-				<File
-					RelativePath="..\..\libsofia-sip-ua\nua\nua_server.h"
 					>
 				</File>
 				<File
@@ -1017,10 +1018,6 @@
 					>
 				</File>
 				<File
-					RelativePath="..\..\libsofia-sip-ua\su\sofia-sip\su_string.h"
-					>
-				</File>
-				<File
 					RelativePath="..\..\libsofia-sip-ua\su\sofia-sip\su.h"
 					>
 				</File>
@@ -1078,6 +1075,10 @@
 				</File>
 				<File
 					RelativePath="..\..\libsofia-sip-ua\su\sofia-sip\su_source.h"
+					>
+				</File>
+				<File
+					RelativePath="..\..\libsofia-sip-ua\su\sofia-sip\su_string.h"
 					>
 				</File>
 				<File
@@ -1384,11 +1385,11 @@
 					>
 				</File>
 				<File
-					RelativePath="..\..\libsofia-sip-ua\sresolv\sofia-sip\sresolv.h"
+					RelativePath="..\..\libsofia-sip-ua\sresolv\sofia-sip\sres_sip.h"
 					>
 				</File>
 				<File
-					RelativePath="..\..\libsofia-sip-ua\sresolv\sofia-sip\sres_sip.h"
+					RelativePath="..\..\libsofia-sip-ua\sresolv\sofia-sip\sresolv.h"
 					>
 				</File>
 			</Filter>
