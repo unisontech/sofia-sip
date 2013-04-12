@@ -53,10 +53,10 @@
 				ObjectFile=".\Debug\"
 				ProgramDataBaseFileName=".\Debug\"
 				BrowseInformation="1"
-				WarningLevel="4"
-				WarnAsError="true"
+				WarningLevel="3"
+				WarnAsError="false"
 				SuppressStartupBanner="true"
-				Detect64BitPortabilityProblems="true"
+				Detect64BitPortabilityProblems="false"
 				DebugInformationFormat="4"
 				CompileAs="1"
 			/>
@@ -133,10 +133,10 @@
 				ObjectFile=".\Release\"
 				ProgramDataBaseFileName=".\Release\"
 				BrowseInformation="1"
-				WarningLevel="4"
-				WarnAsError="true"
+				WarningLevel="3"
+				WarnAsError="false"
 				SuppressStartupBanner="true"
-				Detect64BitPortabilityProblems="true"
+				Detect64BitPortabilityProblems="false"
 				CompileAs="1"
 			/>
 			<Tool
