@@ -1,3 +1,6 @@
 [submodule "cmake"]
 	path = cmake
 	url = git@github.com:unisontech/cmake.git
+[submodule "win32/pthreads-win32"]
+	path = win32/pthreads-win32
+	url = git@github.com:xhook/pthreads-win32.git

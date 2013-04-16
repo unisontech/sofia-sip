@@ -47,11 +47,11 @@
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
       <Optimization>Disabled</Optimization>
-      <AdditionalIncludeDirectories>..;..\..\libsofia-sip-ua\su;..\..\libsofia-sip-ua\ipt;..\..\libsofia-sip-ua\sresolv;..\..\libsofia-sip-ua\bnf;..\..\libsofia-sip-ua\url;..\..\libsofia-sip-ua\msg;..\..\libsofia-sip-ua\sip;..\..\libsofia-sip-ua\nta;..\..\libsofia-sip-ua\nua;..\..\libsofia-sip-ua\iptsec;..\..\libsofia-sip-ua\http;..\..\libsofia-sip-ua\nth;..\..\libsofia-sip-ua\nea;..\..\libsofia-sip-ua\sdp;..\..\libsofia-sip-ua\soa;..\..\libsofia-sip-ua\stun;..\..\libsofia-sip-ua\tport;..\..\libsofia-sip-ua\features;..\pthread;.;$(OPENSSL_ROOT_DIR)/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..;..\..\libsofia-sip-ua\su;..\..\libsofia-sip-ua\ipt;..\..\libsofia-sip-ua\sresolv;..\..\libsofia-sip-ua\bnf;..\..\libsofia-sip-ua\url;..\..\libsofia-sip-ua\msg;..\..\libsofia-sip-ua\sip;..\..\libsofia-sip-ua\nta;..\..\libsofia-sip-ua\nua;..\..\libsofia-sip-ua\iptsec;..\..\libsofia-sip-ua\http;..\..\libsofia-sip-ua\nth;..\..\libsofia-sip-ua\nea;..\..\libsofia-sip-ua\sdp;..\..\libsofia-sip-ua\soa;..\..\libsofia-sip-ua\stun;..\..\libsofia-sip-ua\tport;..\..\libsofia-sip-ua\features;..\pthreads-win32;.;$(OPENSSL_ROOT_DIR)/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <PreprocessorDefinitions>WIN32;_DEBUG;_LIB;IN_LIBSOFIA_SIP_UA_STATIC;LIBSOFIA_SIP_UA_STATIC;LIBSRES_STATIC;PTW32_STATIC_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <MinimalRebuild>true</MinimalRebuild>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
-      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
       <PrecompiledHeaderOutputFile>.\Debug\libsofia_sip_ua_static.pch</PrecompiledHeaderOutputFile>
       <AssemblerListingLocation>.\Debug\</AssemblerListingLocation>
       <ObjectFileName>.\Debug\</ObjectFileName>
@@ -80,10 +80,10 @@
     <ClCompile>
       <Optimization>MaxSpeed</Optimization>
       <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
-      <AdditionalIncludeDirectories>..;..\..\libsofia-sip-ua\su;..\..\libsofia-sip-ua\ipt;..\..\libsofia-sip-ua\sresolv;..\..\libsofia-sip-ua\bnf;..\..\libsofia-sip-ua\url;..\..\libsofia-sip-ua\msg;..\..\libsofia-sip-ua\sip;..\..\libsofia-sip-ua\nta;..\..\libsofia-sip-ua\nua;..\..\libsofia-sip-ua\iptsec;..\..\libsofia-sip-ua\http;..\..\libsofia-sip-ua\nth;..\..\libsofia-sip-ua\nea;..\..\libsofia-sip-ua\sdp;..\..\libsofia-sip-ua\soa;..\..\libsofia-sip-ua\stun;..\..\libsofia-sip-ua\tport;..\..\libsofia-sip-ua\features;..\pthread;.;$(OPENSSL_ROOT_DIR)/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..;..\..\libsofia-sip-ua\su;..\..\libsofia-sip-ua\ipt;..\..\libsofia-sip-ua\sresolv;..\..\libsofia-sip-ua\bnf;..\..\libsofia-sip-ua\url;..\..\libsofia-sip-ua\msg;..\..\libsofia-sip-ua\sip;..\..\libsofia-sip-ua\nta;..\..\libsofia-sip-ua\nua;..\..\libsofia-sip-ua\iptsec;..\..\libsofia-sip-ua\http;..\..\libsofia-sip-ua\nth;..\..\libsofia-sip-ua\nea;..\..\libsofia-sip-ua\sdp;..\..\libsofia-sip-ua\soa;..\..\libsofia-sip-ua\stun;..\..\libsofia-sip-ua\tport;..\..\libsofia-sip-ua\features;..\pthreads-win32;.;$(OPENSSL_ROOT_DIR)/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;IN_LIBSOFIA_SIP_UA_STATIC;LIBSOFIA_SIP_UA_STATIC;LIBSRES_STATIC;PTW32_STATIC_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <StringPooling>true</StringPooling>
-      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <PrecompiledHeaderOutputFile>.\Release\libsofia_sip_ua_static.pch</PrecompiledHeaderOutputFile>
       <AssemblerListingLocation>.\Release\</AssemblerListingLocation>
