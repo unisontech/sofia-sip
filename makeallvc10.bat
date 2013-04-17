@@ -10,10 +10,10 @@ cd win32
 cd libsofia-sip-ua-static
 
 if "%1%" == "release" (
-    devenv.exe libsofia_sip_ua_static.sln /build "Release|Win32" || goto error
+    devenv.exe libsofia_sip_ua_static_vc10.sln /build "Release|Win32" || goto error
 	echo F | xcopy /E /Y /I Release\libsofia_sip_ua_static.lib %INSTALL_DIR%\lib\libsofia_sip_ua.lib || goto error
 ) else (
-    devenv.exe libsofia_sip_ua_static.sln /build "Debug|Win32" || goto error
+    devenv.exe libsofia_sip_ua_static_vc10.sln /build "Debug|Win32" || goto error
 	echo F | xcopy /E /Y /I Debug\libsofia_sip_ua_static.lib %INSTALL_DIR%\lib\libsofia_sip_ua.lib || goto error
 )
 echo F | xcopy /E /Y /I ..\pthreads-win32\pthread.lib %INSTALL_DIR%\lib\pthread.lib || goto error
