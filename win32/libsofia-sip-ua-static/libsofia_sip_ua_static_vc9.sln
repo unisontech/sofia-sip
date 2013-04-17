@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libsofia_sip_ua_static", "libsofia_sip_ua_static.vcproj", "{5A6E80AB-5335-4F14-9030-D4DA3A13109B}"
+	ProjectSection(ProjectDependencies) = postProject
+		{34E018E1-C96F-4494-815E-1828DB825D33} = {34E018E1-C96F-4494-815E-1828DB825D33}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "pthread", "..\pthreads-win32\pthread.vcproj", "{34E018E1-C96F-4494-815E-1828DB825D33}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5A6E80AB-5335-4F14-9030-D4DA3A13109B}.Debug|Win32.ActiveCfg = Debug|Win32
+		{5A6E80AB-5335-4F14-9030-D4DA3A13109B}.Debug|Win32.Build.0 = Debug|Win32
+		{5A6E80AB-5335-4F14-9030-D4DA3A13109B}.Release|Win32.ActiveCfg = Release|Win32
+		{5A6E80AB-5335-4F14-9030-D4DA3A13109B}.Release|Win32.Build.0 = Release|Win32
+		{34E018E1-C96F-4494-815E-1828DB825D33}.Debug|Win32.ActiveCfg = Debug|Win32
+		{34E018E1-C96F-4494-815E-1828DB825D33}.Debug|Win32.Build.0 = Debug|Win32
+		{34E018E1-C96F-4494-815E-1828DB825D33}.Release|Win32.ActiveCfg = Release|Win32
+		{34E018E1-C96F-4494-815E-1828DB825D33}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
